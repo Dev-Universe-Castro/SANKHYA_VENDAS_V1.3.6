@@ -1,0 +1,42 @@
+{
+  "name": "Predict",
+  "short_name": "Predict",
+  "description": "CRM Intuitivo com IA",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#24292E",
+  "theme_color": "#24292E",
+  "icons": [
+    {
+      "src": "/predict-icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/predict-icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Meus Pedidos",
+      "url": "/dashboard/pedidos",
+      "description": "Ver listagem de pedidos"
+    },
+    {
+      "name": "Novo Pedido",
+      "url": "/dashboard/produtos",
+      "description": "Adicionar novo pedido"
+    },
+    {
+      "name": "Sincronizar",
+      "url": "/dashboard/configuracoes",
+      "description": "Sincronizar dados com Sankhya"
+    }
+  ]
+}
